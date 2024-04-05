@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Font Awesome 5 SVG -->
+    <script defer src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- Extra Markers -->
+    <link rel="stylesheet" href="css/leaflet.extra-markers.min.css" />
+    <script src="js/leaflet.extra-markers.min.js"></script>
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .leaflet-container {
+            height: 800px;
+            width: 1200px;
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <script>
+        var map = L.map('map', {
+            crs: L.CRS.Simple
+        });
+        var bounds = [[0, 0], [5.5, 7]];
+        var image = L.imageOverlay('EnnonKaart.jpg', bounds).addTo(map);
+        map.fitBounds(bounds);
+
+
+        var baseMarker = L.ExtraMarkers.icon({
+            markerColor: 'blue',
+        });
+        var questMarker = L.ExtraMarkers.icon({
+            icon: 'fa-exclamation',
+            prefix: 'fa',
+            markerColor: 'red',
+            iconColor: 'gold',
+            shape: 'square'
+        });
+
+
+        L.marker([2.25, 4.25], { icon: questMarker }).addTo(map).bindPopup('<b>Draida Bay</b><br>');
+        L.marker([0.5, 6.5], { icon: baseMarker }).addTo(map).bindPopup('<b>Drandora Port</b><br>');
+        L.marker([2.4, 2.9], { icon: baseMarker }).addTo(map).bindPopup('<b>Seldaan Village</b><br>');
+        L.marker([3, 3.8], { icon: baseMarker }).addTo(map).bindPopup('<b>Waldurk Forest</b><br>');
+        L.marker([3.5, 4.8], { icon: baseMarker }).addTo(map).bindPopup('<b>Caverns of Nathuz</b><br>');
+        L.marker([4.7, 3], { icon: baseMarker }).addTo(map).bindPopup('<b>Barresh Settlements</b><br>');
+        L.marker([3.7, 3.5], { icon: baseMarker }).addTo(map).bindPopup('<b>Castle Fortaan</b><br>');
+        L.marker([3.1, 0.7], { icon: baseMarker }).addTo(map).bindPopup('<b>Ilrion</b><br>');
+        L.marker([2.4, 1.6], { icon: baseMarker }).addTo(map).bindPopup('<b>Gates of Elsruck</b><br>');
+        L.marker([5.2, 3.5], { icon: baseMarker }).addTo(map).bindPopup('<b>Delftpunt</b><br>');
+    </script>
+</body>
+
+</html>
