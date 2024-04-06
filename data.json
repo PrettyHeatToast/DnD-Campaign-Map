@@ -1,0 +1,112 @@
+{
+    "markers": [
+        {
+            "title": "Draida Bay",
+            "description": "Draida Bay is de belangrijkste haven van Ennon. Haast alle handelsgoederen passeren hier.<br>De baai is genoemd naar een oude legende over koningin Draida die hier eeuwen geleden zichzelf in een zeemonster liet veranderen om haar aan een schipbreuk verloren gegane zoon terug te vinden.",
+            "markerType": "occupiedMarker",
+            "coordinates": [
+                2.25,
+                4.25
+            ]
+        },
+        {
+            "title": "Drandora Port",
+            "description": "Vroeger was het verschil tussen rijk en arm in Drandora pijnlijk zichtbaar, maar nu werkt iedereen samen om de laatste veilig haven van Ennon te beschermen tegen het kwaad dat loert, of zo lijkt het alleszins toch. Een groep strijders heeft zich hier verzamelt en plant een aanval om het koninkrijk terug te nemen.",
+            "markerType": "baseMarker",
+            "coordinates": [
+                0.5,
+                6.5
+            ]
+        },
+        {
+            "title": "Seldaan",
+            "description": "Seldaan, de grootste stad van Ennon, lijdt zwaar onder de bezetting van het koninkrijk. Veel inwoners van de stad worden gedwongen oorlogtuig te maken of zware arbeid te verrichten, maar toch zijn er geruchten van een kleine rebellengroep in de stad.",
+            "markerType": "occupiedMarker",
+            "coordinates": [
+                2.4,
+                2.9
+            ]
+        },
+        {
+            "title": "Waldurk Forest",
+            "description": "De oudste bomen in dit bos zijn ouder dan Ennon. Lang geleden leefde een groep druïden hier in een tempel. Ze gaven hun esoterische kennis van generatie naar generatie over, maar één van hen werd beïnvloed door duistere krachten en droof de andere druïden en dieren weg. Sinds dan is het pad door Waldurk donker en gevaarlijk, maar misschien wel het beste om Kasteel Fortaan stiekem te bereiken.",
+            "markerType": "occupiedMarker",
+            "coordinates": [
+                3,
+                3.8
+            ]
+        },
+        {
+            "title": "Caverns of Nathuz",
+            "description": "Deze magische grotten waren vroeger een populaire smokkelroute tussen Draida Bay en de Barresh Settlements, maar steeds minder mensen durven de steeds veranderende grotten nog in te gaan.",
+            "markerType": "unknownMarker",
+            "coordinates": [
+                3.5,
+                4.8
+            ]
+        },
+        {
+            "title": "Barresh Settlements",
+            "description": "De barbaren die deze bergachtige gebieden bewonen zijn de enige inwoners van Ennon die niet onder het gezag van de koning vallen. Hoewel ze formidabele krijgers zijn overvallen ze nooit nabijgelegen dorpen.",
+            "markerType": "unknownMarker",
+            "coordinates": [
+                4.7,
+                3
+            ]
+        },
+        {
+            "title": "Castle Fortaan",
+            "description": "Fortaan is het huis van de adelijke familie die over Ennon heerst. Sinds de bezetting van het koninkrijk is er geen spoor meer van de koning te vinden.",
+            "markerType": "occupiedMarker",
+            "coordinates": [
+                3.7,
+                3.5
+            ]
+        },
+        {
+            "title": "Ilrion",
+            "description": "Ilrion is grote, erg vruchtbare vlakte in het westen van Ennon. Toen de duistere krachten Ennon binnenvielen hebben ze Ilrion geplunderd en verwoest, waardoor het er nu erg moeilijk is om te overleven. Het beetje handelsgoederen dat ze wel nog hebben kunnen ze niet verkopen door de bezetting van Draida Bay. Als de bezetting nog veel langer doorgaat ziet de toekomst er erg duister uit voor de duizenden families die hier wonen en werken.",
+            "markerType": "occupiedMarker",
+            "coordinates": [
+                3.1,
+                0.7
+            ]
+        },
+        {
+            "title": "Gates of Elsruck",
+            "description": "De poort van Elsruck is de grens tussen Ennon en het nabijgelegen Nefos. De poort is vernietigd, maar er is nog geen enkel mens, dier of beest doorgekomen...",
+            "markerType": "occupiedMarker",
+            "coordinates": [
+                2.4,
+                1.6
+            ]
+        },
+        {
+            "title": "Delftpunt",
+            "description": "Delftpunt is de meest noorderlijke nederzetting van Ennon. Enkele jaren geleden werder er aders van elke delfstof die je kan bedenken gevonden in de nabijgelegen bergen, dus er werd snel een mijnkolonie gebouwd die het koninkrijk van allerlei materialen voorziet. Sinds de Storm heeft niemand nog nieuws uit Delftpunt gehad, dus iedereen vreest voor het ergste.",
+            "markerType": "unknownMarker",
+            "coordinates": [
+                5.2,
+                3.5
+            ]
+        },
+        {
+            "title": "Duistere dokken",
+            "description": "<b>Spelers:</b> 4 of 5 | <b>Level:</b> 3 | <b>Type:</b> Sabotage | <b>Urgentie:</b> 4/5 | <b>Locatie:</b> Draida Bay<br>De krachten van De Storm dwingen de inwoners van Seldaan Village om boten te bouwen. Als we niet snel ingrijpen kunnen ze binnenkort een invasie op Drandora Port lanceren. Saboteer hun plannen en win ons wat meer tijd om een tegeninvasie op poten te zetten.",
+            "markerType": "questMarker",
+            "coordinates": [
+                2.35,
+                4.5
+            ]
+        },
+        {
+            "title": "Hulp uit het Noorden",
+            "description": "<b>Spelers:</b> 4 of 5 | <b>Level:</b> 3-4 | <b>Type:</b> Scouting | <b>Urgentie:</b> 2/5 | <b>Locatie:</b> Caverns of Nathuz<br>We hopen de strijd met de krachten van De Storm langs twee kanten te kunnen openen: als we de barbaren van de Barresh Settlements kunnen overtuigen om ons te helpen hebben we een veel betere kans.<br>Zoek een route door de Caverns of Nathuz om ongemerkt de Barresh Settlements te bereiken. Wie weet kunnen we dan ook wat mensen naar Delftpunt sturen om te kijken wat er over is van de stad.",
+            "markerType": "questMarker",
+            "coordinates": [
+                3.2,
+                4.8
+            ]
+        }
+    ]
+}
