@@ -84,7 +84,7 @@
                 const marker = L.marker(coordinates, { icon: window[markerType] }).addTo(map);
 
                 // Bind popup with title and description
-                marker.bindPopup('<b>${title}</b><br>${description}');
+                marker.bindPopup(`<b>${title}</b><br>${description}`);
             });
         }
 
