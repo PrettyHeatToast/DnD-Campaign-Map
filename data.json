@@ -2,7 +2,7 @@
     "markers": [
         {
             "title": "Draida Bay",
-            "description": "Draida Bay is de belangrijkste haven van Ennon. Haast alle handelsgoederen passeren hier.<br>De baai is genoemd naar een oude legende over koningin Draida die hier eeuwen geleden zichzelf in een zeemonster liet veranderen om haar aan een schipbreuk verloren gegane zoon terug te vinden.",
+            "description": "Draida Bay is de belangrijkste haven van Ennon. Haast alle handelsgoederen passeren hier, en daardoor zijn er veel dorpen in de buurt.<br>De baai is genoemd naar een oude legende over koningin Draida die hier eeuwen geleden zichzelf in een zeemonster liet veranderen om haar aan een schipbreuk verloren gegane zoon terug te vinden.",
             "markerType": "occupiedMarker",
             "coordinates": [
                 2.25,
@@ -92,7 +92,7 @@
         },
         {
             "title": "Duistere dokken",
-            "description": "<b>Spelers:</b> 4 of 5 | <b>Level:</b> 3 | <b>Type:</b> Sabotage | <b>Urgentie:</b> 4/5 | <b>Locatie:</b> Draida Bay<br>De krachten van De Storm dwingen de inwoners van Seldaan Village om boten te bouwen. Als we niet snel ingrijpen kunnen ze binnenkort een invasie op Drandora Port lanceren.<br>Saboteer hun plannen en win ons wat meer tijd om een tegeninvasie op poten te zetten.",
+            "description": "<b>Spelers:</b> 4 of 5 | <b>Level:</b> 3 | <b>Type:</b> Sabotage | <b>Urgentie:</b> 4/5 | <b>Locatie:</b> Draida Bay<br>De krachten van De Storm dwingen de inwoners van Draida Bay en Seldaan Village om boten te bouwen. Als we niet snel ingrijpen kunnen ze binnenkort een invasie op Drandora Port lanceren.<br>Saboteer hun plannen en win ons wat meer tijd om een tegeninvasie op poten te zetten.",
             "markerType": "questMarker",
             "coordinates": [
                 2.35,
