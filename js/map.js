@@ -10,7 +10,7 @@ map.fitBounds(bounds);
 var markerIcons = {};
 
 // Load marker types from JSON
-fetch('./json/markerTypes.json')
+fetch('/DnD-Campaign-Map/json/markerTypes.json')
     .then(response => response.json())
     .then(data => {
         for (const [key, value] of Object.entries(data)) {
@@ -36,8 +36,13 @@ function addMarkersFromJSON(data) {
 }
 
 function loadMarkers(day) {
-    fetch(`./json/ennon/dag${day}.json`)
-        .then(response => response.json())
+    fetch(`/DnD-Campaign-Map/json/ennon/dag${day}.json`)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
         .then(data => addMarkersFromJSON(data))
         .catch(error => console.error('Error fetching data:', error));
 }
