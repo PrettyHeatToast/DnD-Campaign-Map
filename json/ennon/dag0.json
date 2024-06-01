@@ -92,7 +92,7 @@
         },
         {
             "title": "Een groep avonturiers",
-            "description": "Een groep avonturiers heeft een kar goederen afgeleverd in Delftpunt en wordt aangevallen door een mysterieuze storm.",
+            "description": "<ul><li>'Big' Sam</li><li>Arya en Brom</li><li>Isabelle</li><li>Klaas Aventu</li><li>Talonwind Skyshard</li></ul>Een groep avonturiers heeft een kar goederen afgeleverd in Delftpunt en wordt aangevallen door een mysterieuze storm.",
             "markerType": "partyMarker",
             "coordinates": [
                 5.1,

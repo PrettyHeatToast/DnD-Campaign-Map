@@ -23,5 +23,11 @@
         "prefix": "fa",
         "markerColor": "green",
         "iconColor": "white"
+    },
+    "partyMarkerSingle": {
+        "icon": "fa-user",
+        "prefix": "fa",
+        "markerColor": "green",
+        "iconColor": "white"
     }
 }
