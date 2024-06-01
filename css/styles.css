@@ -1,0 +1,22 @@
+/* styles.css */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.leaflet-container {
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    border: 3px solid grey;
+    padding: 10px;
+}
+
+.center {
+    width: 80%;
+    margin: auto;
+    border: 3px solid grey;
+    padding: 10px;
+    text-align: center;
+}

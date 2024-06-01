@@ -1,0 +1,27 @@
+{
+    "baseMarker": {
+        "markerColor": "blue"
+    },
+    "occupiedMarker": {
+        "markerColor": "purple"
+    },
+    "questMarker": {
+        "icon": "fa-exclamation",
+        "prefix": "fa",
+        "markerColor": "red",
+        "iconColor": "gold",
+        "shape": "square"
+    },
+    "unknownMarker": {
+        "icon": "fa-question",
+        "prefix": "fa",
+        "markerColor": "black",
+        "iconColor": "white"
+    },
+    "partyMarker": {
+        "icon": "fa-users",
+        "prefix": "fa",
+        "markerColor": "green",
+        "iconColor": "white"
+    }
+}

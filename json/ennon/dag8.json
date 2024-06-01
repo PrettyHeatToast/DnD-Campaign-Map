@@ -91,20 +91,11 @@
             ]
         },
         {
-            "title": "Duistere dokken",
-            "description": "<b>Spelers:</b> 4 of 5 | <b>Level:</b> 3 | <b>Type:</b> Sabotage | <b>Urgentie:</b> 4/5 | <b>Locatie:</b> Draida Bay<br>De krachten van De Storm dwingen de inwoners van Draida Bay en Seldaan Village om boten te bouwen. Als we niet snel ingrijpen kunnen ze binnenkort een invasie op Drandora Port lanceren.<br>Saboteer hun plannen en win ons wat meer tijd om een tegeninvasie op poten te zetten.",
-            "markerType": "questMarker",
+            "title": "De Delftpunters",
+            "description": "De groep reist door een oud dwergenfort en treft een ondergrondse rivier aan.",
+            "markerType": "partyMarker",
             "coordinates": [
-                2.35,
-                4.5
-            ]
-        },
-        {
-            "title": "Hulp uit het Noorden",
-            "description": "<b>Spelers:</b> 4 of 5 | <b>Level:</b> 3 | <b>Type:</b> Scouting | <b>Urgentie:</b> 2/5 | <b>Locatie:</b> Caverns of Nathuz<br>We hopen de strijd met de krachten van De Storm langs twee kanten te kunnen openen: als we de barbaren van de Barresh Settlements kunnen overtuigen om ons te helpen hebben we een veel betere kans.<br>Zoek een route door de Caverns of Nathuz om ongemerkt de Barresh Settlements te bereiken. Wie weet kunnen we dan ook wat mensen naar Delftpunt sturen om te kijken wat er over is van de stad.",
-            "markerType": "questMarker",
-            "coordinates": [
-                3.2,
+                3.8,
                 4.8
             ]
         }
