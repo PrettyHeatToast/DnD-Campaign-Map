@@ -10,7 +10,7 @@ map.fitBounds(bounds);
 var markerIcons = {};
 
 // Load marker types from JSON
-fetch('/json/markerTypes.json')
+fetch('./json/markerTypes.json')
     .then(response => response.json())
     .then(data => {
         for (const [key, value] of Object.entries(data)) {
@@ -36,7 +36,7 @@ function addMarkersFromJSON(data) {
 }
 
 function loadMarkers(day) {
-    fetch(`/json/ennon/dag${day}.json`)
+    fetch(`./json/ennon/dag${day}.json`)
         .then(response => response.json())
         .then(data => addMarkersFromJSON(data))
         .catch(error => console.error('Error fetching data:', error));
