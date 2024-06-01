@@ -10,7 +10,7 @@ slider.oninput = function () {
 };
 
 function loadMarkers(day) {
-    fetch(`/json/ennon/dag${day}.json`)
+    fetch(`/DnD-Campaign-Map/json/ennon/dag${day}.json`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
