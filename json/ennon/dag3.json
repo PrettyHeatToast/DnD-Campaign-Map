@@ -116,6 +116,15 @@
                 0.4,
                 6.4
             ]
+        },
+        {
+            "title": "De eerste uithaal",
+            "description": "<b>Spelers:</b> 3 of 4 | <b>Level:</b> 5 | <b>Type:</b> Eliminatie | <b>Urgentie:</b> 4/5 | <b>Locatie:</b> Seldaan<br>De arbeiders uit Drandora hadden heel wat te vertellen, maar het interessantste was zonder twijfel dat er een oorlogsconclaaf georganiseerd wordt in Seldaan over 2 dagen. Als we snel zijn kunnen we een van de afgevaardigden onderscheppen en uitschakelen. Toon hun dat ze niet zo veilig zijn als ze denken.",
+            "markerType": "questMarker",
+            "coordinates": [
+                2,
+                3
+            ]
         }
     ]
 }
