@@ -125,6 +125,15 @@
                 2,
                 3
             ]
+        },
+        {
+            "title": "De Stormbrekers",
+            "description": "<ul><li>Luther G.A. Extremus</li><li>Myaxamal Varvarax Pawanax</li><li>Reginald Burrows en Buckles</li></ul>De groep probeert het oorlogsconclaaf te verstoren, maar Luther wordt gevangen genomen.",
+            "markerType": "partyMarker",
+            "coordinates": [
+                1.9,
+                2.9
+            ]
         }
     ]
 }

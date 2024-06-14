@@ -101,11 +101,29 @@
         },
         {
             "title": "De Delftpunters",
-            "description": "<ul><li>'Big' Sam</li><li>Arya en Brom</li><li>Isabelle</li><li>Klaas Aventu</li><li>Talonwind Skyshard</li></ul>Na een succesvolle aanval op de dokken van Drandora besluit de groep verder te reizen naar Nathuz.",
+            "description": "<ul><li>'Big' Sam</li><li>Isabelle</li><li>Klaas Aventu</li><li>Talonwind Skyshard</li></ul>Na een succesvolle aanval op de dokken van Drandora besluit de groep verder te reizen naar Nathuz.",
             "markerType": "partyMarker",
             "coordinates": [
                 2.35,
                 4.5
+            ]
+        },
+        {
+            "title": "De Delftpunters",
+            "description": "<ul><li>Arya en Brom</li></ul>Arya komt met Pim en een groep van 30 bevrijdde arbeiders terug aan in Drandora en ligt het verzet in over hun missie.",
+            "markerType": "partyMarkerSingle",
+            "coordinates": [
+                0.4,
+                6.4
+            ]
+        },
+        {
+            "title": "De Stormbrekers",
+            "description": "<ul><li>Luther G.A. Extremus</li><li>Myaxamal Varvarax Pawanax</li><li>Reginald Burrows en Buckles</li></ul>De groep komt terug van een missie en hoort over de aankomst van de bevrijdde arbeiders.",
+            "markerType": "partyMarker",
+            "coordinates": [
+                0.4,
+                6.6
             ]
         }
     ]

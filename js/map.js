@@ -1,5 +1,6 @@
 // map.js
 
+// Initialize the map with custom CRS
 var map = L.map('map', {
     crs: L.CRS.Simple
 });
@@ -7,6 +8,7 @@ var bounds = [[0, 0], [5.5, 7]];
 var image = L.imageOverlay('img/EnnonKaart.jpg', bounds).addTo(map);
 map.fitBounds(bounds);
 
+// Object to store custom marker icons
 var markerIcons = {};
 
 // Load marker types from JSON
@@ -19,6 +21,7 @@ fetch('/DnD-Campaign-Map/json/markerTypes.json')
     })
     .catch(error => console.error('Error fetching marker types:', error));
 
+// Function to add markers from JSON data
 function addMarkersFromJSON(data) {
     // Clear existing markers
     map.eachLayer(function (layer) {
@@ -35,6 +38,7 @@ function addMarkersFromJSON(data) {
     });
 }
 
+// Function to load markers based on the day
 function loadMarkers(day) {
     fetch(`/DnD-Campaign-Map/json/ennon/dag${day}.json`)
         .then(response => {

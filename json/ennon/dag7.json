@@ -98,6 +98,15 @@
                 3.2,
                 4.8
             ]
+        },
+        {
+            "title": "De Stormbrekers",
+            "description": "<ul><li>Myaxamal Varvarax Pawanax</li><li>Reginald Burrows en Buckles</li></ul>Reginald en MVP zijn op weg terug naar Drandora.",
+            "markerType": "partyMarker",
+            "coordinates": [
+                0.4,
+                6.6
+            ]
         }
     ]
 }

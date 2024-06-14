@@ -125,6 +125,15 @@
                 2,
                 3
             ]
+        },
+        {
+            "title": "De Stormbrekers",
+            "description": "<ul><li>Luther G.A. Extremus</li><li>Myaxamal Varvarax Pawanax</li><li>Reginald Burrows en Buckles</li></ul>De groep is onderweg naar Seldaan om het oorlogsconclaaf te verstoren",
+            "markerType": "partyMarker",
+            "coordinates": [
+                1.9,
+                3.5
+            ]
         }
     ]
 }
